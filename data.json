@@ -1,0 +1,71 @@
+{
+  "subscription": {
+    "provider": {
+      "name": "Allnodes",
+      "uri": "https://www.allnodes.com/",
+      "color": "#6385fe"
+    },
+    "name": "Allnodes-Public",
+    "pricingPage": "https://www.publicnode.com/",
+    "isFree": true,
+    "apiType": "RPC"
+  },
+  "network": {
+    "chain": {
+      "name": "Ethereum",
+      "abvr": "ETH"
+    },
+    "networkName": "Mainnet"
+  },
+  "method": {
+    "displayName": "eth_blockNumber",
+    "warmupCallsCount": 1,
+    "measureCallsCount": 3,
+    "methodType": "READ",
+    "collectionIntervalMinutes": 1
+  },
+  "region": {
+    "label": "ap-southeast-1",
+    "countryCode": "SG",
+    "geoArea": "Singapore"
+  },
+  "result": {
+    "regionLabel": "ap-southeast-1",
+    "warmUp": [
+      {
+        "start": 1685071277864,
+        "end": 1685071277978,
+        "info": "eth_blockNumber",
+        "value": "17340569"
+      }
+    ],
+    "measure": [
+      {
+        "start": 1685071277978,
+        "end": 1685071278055,
+        "info": "eth_blockNumber",
+        "value": "17340569"
+      },
+      {
+        "start": 1685071278055,
+        "end": 1685071278079,
+        "info": "eth_blockNumber",
+        "value": "17340569"
+      },
+      {
+        "start": 1685071278079,
+        "end": 1685071278115,
+        "info": "eth_blockNumber",
+        "value": "17340569"
+      }
+    ],
+    "avgOfMeasure": 45.667,
+    "avgOfWarmup": 114.0,
+    "geoStat": {
+      "oIP": "13.212.47.2",
+      "oIpMs": 351,
+      "tIP": "104.22.12.213",
+      "tIpMs": 0
+    }
+  }
+}
